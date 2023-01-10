@@ -19,8 +19,8 @@ app.use(passport.session());
 
 // configure passport to use the strategy
 passport.use(new strategy({
-    clientID: 'u-s4t2ud-750f0c9675f4b010b6b566ca38c6ce2c29a97f3be9f08e8242aae46e21fcdf6f',
-    clientSecret: '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',
+    clientID: '',
+    clientSecret: '',
     callbackURL: 'http://localhost:3000/callback',
     scope: 'public'
   },
